@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mongo-redis-cache-sample",
+  "version": "1.0.0",
+  "description": "Sample code of using redis cache on nodejs mongo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yussan/nodejs-mongo-redis-cache-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yussan/nodejs-mongo-redis-cache-sample/issues"
+  },
+  "homepage": "https://github.com/yussan/nodejs-mongo-redis-cache-sample#readme"
+}
